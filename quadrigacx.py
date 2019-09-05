@@ -16,7 +16,7 @@ url_buy = 'https://api.quadrigacx.com/v2/buy'
 url_sell = 'https://api.quadrigacx.com/v2/sell'
 
 class quadrigacx:
-	def __init__(self, cx = 'ltc_cad', clientid = '2333344', apikey = 'cnrWeLpUIT', apisecret = '75e95716e7902b4853e77bae7cffd0d3'):
+	def __init__(self, cx = 'ltc_cad', clientid = '1234', apikey = '1234', apisecret = '1234'):
 		self.clientid, self.apikey, self.apisecret, self.cx = str(clientid), apikey, apisecret, cx
 
 	#Nonce and Signature
