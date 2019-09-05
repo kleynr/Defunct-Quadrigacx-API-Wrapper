@@ -170,6 +170,3 @@ class quadrigacx:
 		if 'error' in response:
 			response = 'Error' + str(time())
 		return response
-
-quadrigacx.py
-Displaying quadrigacx.py.
